@@ -54,7 +54,7 @@ public class PageObjectModel {
 	@After
 	public void tearDown() throws Exception {
 		Thread.sleep(2000);
-		driver.quit();
+		//driver.quit();
 	}
 
 }
